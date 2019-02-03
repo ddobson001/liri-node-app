@@ -158,3 +158,137 @@ node18:31:04.566 INFO  ------------------
 20:40:21.594 INFO  Preview Link : null 
 20:40:21.594 INFO  Album: The Original Monster Mash 
 20:40:21.594 INFO  ------------------ 
+20:45:40.376 INFO  ------------------ 
+20:45:40.377 INFO  Artist(s): Backstreet Boys 
+20:45:40.377 INFO  Song: I Want It That Way 
+20:45:40.377 INFO  Preview Link : https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=96cc499937964822b6ef8bc830fc1e91 
+20:45:40.377 INFO  Album: The Hits--Chapter One 
+20:45:40.378 INFO  ------------------ 
+20:53:28.132 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+20:54:02.992 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+20:54:31.984 INFO  ------------------ 
+20:54:31.984 INFO  Title: The Shawshank Redemption 
+20:54:31.985 INFO  Release Year: 1994 
+20:54:31.985 INFO  IMDB rating: 9.3 
+20:54:31.985 INFO  Rotten Tomatoes rating: 91% 
+20:54:31.985 INFO  Country produced in: USA 
+20:54:31.985 INFO  Languages: English 
+20:54:31.986 INFO  Plot: Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency. 
+20:54:31.986 INFO  Actors: Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler 
+20:54:31.986 INFO  ------------------ 
+20:54:57.407 INFO  ------------------ 
+20:54:57.408 INFO  Title: Terminator 
+20:54:57.409 INFO  Release Year: 1991 
+20:54:57.420 INFO  IMDB rating: 6.4 
+20:54:57.420 INFO  Error occured getting OMDB data: TypeError: Cannot read property 'Value' of undefined 
+20:55:56.773 INFO  ------------------ 
+20:55:56.774 INFO  Title: Terminator 
+20:55:56.774 INFO  Release Year: 1991 
+20:55:56.774 INFO  IMDB rating: 6.4 
+20:55:56.775 INFO  Error occured getting OMDB data: TypeError: Cannot read property 'Value' of undefined 
+20:56:17.710 INFO  ------------------ 
+20:56:17.710 INFO  Title: Aladdin 
+20:56:17.710 INFO  Release Year: 1992 
+20:56:17.711 INFO  IMDB rating: 8.0 
+20:56:17.711 INFO  Rotten Tomatoes rating: 94% 
+20:56:17.711 INFO  Country produced in: USA 
+20:56:17.712 INFO  Languages: English 
+20:56:17.712 INFO  Plot: When a street urchin vies for the love of a beautiful princess, he uses a genie's magic power to make himself off as a prince in order to marry her. 
+20:56:17.712 INFO  Actors: Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman 
+20:56:17.713 INFO  ------------------ 
+21:05:07.100 INFO  ------------------ 
+21:05:07.100 INFO  Title: Aladdin 
+21:05:07.101 INFO  Release Year: 1992 
+21:05:07.101 INFO  IMDB rating: 8.0 
+21:05:07.101 INFO  Rotten Tomatoes rating: 94% 
+21:05:07.101 INFO  Country produced in: USA 
+21:05:07.102 INFO  Languages: English 
+21:05:07.102 INFO  Plot: When a street urchin vies for the love of a beautiful princess, he uses a genie's magic power to make himself off as a prince in order to marry her. 
+21:05:07.102 INFO  Actors: Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman 
+21:05:07.102 INFO  ------------------ 
+21:05:42.581 INFO  ------------------ 
+21:05:42.582 INFO  Title: Aladdin 
+21:05:42.582 INFO  Release Year: 1992 
+21:05:42.582 INFO  IMDB rating: 8.0 
+21:05:42.582 INFO  Rotten Tomatoes rating: 94% 
+21:05:42.583 INFO  Country produced in: USA 
+21:05:42.583 INFO  Languages: English 
+21:05:42.583 INFO  Plot: When a street urchin vies for the love of a beautiful princess, he uses a genie's magic power to make himself off as a prince in order to marry her. 
+21:05:42.583 INFO  Actors: Scott Weinger, Robin Williams, Linda Larkin, Jonathan Freeman 
+21:05:42.584 INFO  ------------------ 
+21:07:06.239 INFO  ------------------ 
+21:07:06.240 INFO  Artist(s): Just A Gent, NGHTMRE 
+21:07:06.240 INFO  Song: Limelight (NGHTMRE Remix) 
+21:07:06.240 INFO  Preview Link : https://p.scdn.co/mp3-preview/30d914a21360c0265b8c9e9ffde9c970313d02d6?cid=96cc499937964822b6ef8bc830fc1e91 
+21:07:06.241 INFO  Album: Limelight (NGHTMRE Remix) 
+21:07:06.241 INFO  ------------------ 
+21:07:39.212 INFO  ------------------ 
+21:07:39.214 INFO  Artist(s): Just A Gent, NGHTMRE 
+21:07:39.215 INFO  Song: Limelight (NGHTMRE Remix) 
+21:07:39.216 INFO  Preview Link : https://p.scdn.co/mp3-preview/30d914a21360c0265b8c9e9ffde9c970313d02d6?cid=96cc499937964822b6ef8bc830fc1e91 
+21:07:39.217 INFO  Album: Limelight (NGHTMRE Remix) 
+21:07:39.219 INFO  ------------------ 
+21:08:17.418 INFO  ------------------ 
+21:08:17.419 INFO  Upcoming Concert: 
+21:08:17.419 INFO  Venue: Hakkasan Las Vegas Nightclub 
+21:08:17.420 INFO  Location: United StatesNV, Las Vegas 
+21:08:17.420 INFO  Date: Thursday, February 7, 2019 7:00 PM 
+21:08:17.420 INFO  ------------------ 
+21:08:36.192 INFO  ------------------ 
+21:08:36.193 INFO  Upcoming Concert: 
+21:08:36.194 INFO  Venue: Hakkasan Las Vegas Nightclub 
+21:08:36.194 INFO  Location: United StatesNV, Las Vegas 
+21:08:36.195 INFO  Date: Thursday, February 7, 2019 7:00 PM 
+21:08:36.196 INFO  ------------------ 
+21:09:08.447 INFO  ------------------ 
+21:09:08.448 INFO  Artist(s): Backstreet Boys 
+21:09:08.449 INFO  Song: I Want It That Way 
+21:09:08.464 INFO  Preview Link : https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=96cc499937964822b6ef8bc830fc1e91 
+21:09:08.465 INFO  Album: The Hits--Chapter One 
+21:09:08.466 INFO  ------------------ 
+21:09:22.500 INFO  ------------------ 
+21:09:22.500 INFO  Artist(s): Backstreet Boys 
+21:09:22.501 INFO  Song: I Want It That Way 
+21:09:22.501 INFO  Preview Link : https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=96cc499937964822b6ef8bc830fc1e91 
+21:09:22.501 INFO  Album: The Hits--Chapter One 
+21:09:22.501 INFO  ------------------ 
+21:13:07.819 INFO  ------------------ 
+21:13:07.819 INFO  Please include artist to find concert results near you. 
+21:13:07.819 INFO  ------------------ 
+21:13:08.283 INFO  Error occured getting BandsInTown data: TypeError: Cannot read property 'datetime' of undefined 
+21:13:24.502 INFO  ------------------ 
+21:13:24.502 INFO  Artist(s): Bobby "Boris" Pickett, The Crypt-Kickers 
+21:13:24.503 INFO  Song: Monster Mash 
+21:13:24.503 INFO  Preview Link : null 
+21:13:24.503 INFO  Album: The Original Monster Mash 
+21:13:24.503 INFO  ------------------ 
+21:13:32.716 INFO  ------------------ 
+21:13:32.717 INFO  Title: Mr. Nobody 
+21:13:32.717 INFO  Release Year: 2009 
+21:13:32.717 INFO  IMDB rating: 7.8 
+21:13:32.717 INFO  Rotten Tomatoes rating: 67% 
+21:13:32.718 INFO  Country produced in: Belgium, Germany, Canada, France, USA, UK 
+21:13:32.718 INFO  Languages: English, Mohawk 
+21:13:32.718 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+21:13:32.719 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+21:13:32.719 INFO  ------------------ 
+21:13:53.225 INFO  ------------------ 
+21:13:53.225 INFO  Title: Mr. Nobody 
+21:13:53.225 INFO  Release Year: 2009 
+21:13:53.225 INFO  IMDB rating: 7.8 
+21:13:53.226 INFO  Rotten Tomatoes rating: 67% 
+21:13:53.226 INFO  Country produced in: Belgium, Germany, Canada, France, USA, UK 
+21:13:53.226 INFO  Languages: English, Mohawk 
+21:13:53.226 INFO  Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible. 
+21:13:53.226 INFO  Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham 
+21:13:53.227 INFO  ------------------ 
+21:14:01.434 INFO  ------------------ 
+21:14:01.434 INFO  Artist(s): Bobby "Boris" Pickett, The Crypt-Kickers 
+21:14:01.435 INFO  Song: Monster Mash 
+21:14:01.435 INFO  Preview Link : null 
+21:14:01.435 INFO  Album: The Original Monster Mash 
+21:14:01.436 INFO  ------------------ 
+21:14:09.754 INFO  ------------------ 
+21:14:09.754 INFO  Please include artist to find concert results near you. 
+21:14:09.754 INFO  ------------------ 
+21:14:10.103 INFO  Error occured getting BandsInTown data: TypeError: Cannot read property 'datetime' of undefined 

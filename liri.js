@@ -37,7 +37,7 @@ let value = process.argv[3];
 searchResults(command, value);
 // General function for app to work
 function searchResults(command, value) {
-    // Switches up the first input from user to call different functions
+    // will run functions based on the command typed
 
     switch (command) {
         // Calls the Bands in Town function
@@ -208,7 +208,7 @@ function getMovieInfo(value) {
 
     }
 
-    let queryUrl = 'http://www.omdbapi.com/?t=' + movieName + '&y=&plogOutput=short&tomatoes=True&apikey=trilogOutputy';
+    let queryUrl = 'http://www.omdbapi.com/?t=' + movieName + '&y=&plogOutput=short&tomatoes=True&apiKey=trilogy';
 
 
 
