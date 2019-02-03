@@ -123,3 +123,38 @@ node18:31:04.566 INFO  ------------------
 19:57:35.980 INFO  Location: United Kingdom, London 
 19:57:35.980 INFO  Date: Saturday, March 23, 2019 7:00 PM 
 19:57:35.981 INFO  ------------------ 
+20:08:32.074 INFO  ------------------ 
+20:08:32.074 INFO  Upcoming Concert: 
+20:08:32.074 INFO  Venue: Rolling Stock London 
+20:08:32.075 INFO  Location: United Kingdom, London 
+20:08:32.075 INFO  Date: Saturday, March 23, 2019 7:00 PM 
+20:08:32.075 INFO  ------------------ 
+20:08:40.459 INFO  ------------------ 
+20:08:40.459 INFO  Title: undefined 
+20:08:40.460 INFO  Release Year: undefined 
+20:08:40.460 INFO  IMDB rating: undefined 
+20:08:40.460 INFO  Error occured getting OMDB data: TypeError: Cannot read property '1' of undefined 
+20:09:26.065 INFO  ------------------ 
+20:09:26.066 INFO  Title: undefined 
+20:09:26.066 INFO  Release Year: undefined 
+20:09:26.066 INFO  IMDB rating: undefined 
+20:09:26.066 INFO  Error occured getting OMDB data: TypeError: Cannot read property '1' of undefined 
+20:10:21.541 INFO  ------------------ 
+20:10:21.541 INFO  Title: undefined 
+20:10:21.542 INFO  Release Year: undefined 
+20:10:21.542 INFO  IMDB rating: undefined 
+20:10:21.542 INFO  Error occured getting OMDB data: TypeError: Cannot read property '1' of undefined 
+20:10:48.659 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+20:11:55.310 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+20:36:07.086 INFO  ------------------ 
+20:36:07.087 INFO  Artist(s): Backstreet Boys 
+20:36:07.087 INFO  Song: I Want It That Way 
+20:36:07.087 INFO  Preview Link : https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=96cc499937964822b6ef8bc830fc1e91 
+20:36:07.087 INFO  Album: The Hits--Chapter One 
+20:36:07.088 INFO  ------------------ 
+20:40:21.578 INFO  ------------------ 
+20:40:21.578 INFO  Artist(s): Bobby "Boris" Pickett, The Crypt-Kickers 
+20:40:21.594 INFO  Song: Monster Mash 
+20:40:21.594 INFO  Preview Link : null 
+20:40:21.594 INFO  Album: The Original Monster Mash 
+20:40:21.594 INFO  ------------------ 

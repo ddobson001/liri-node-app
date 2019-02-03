@@ -1,23 +1,23 @@
-
+// Required to reformat time
 let moment = require('moment');
 moment().format();
 
 // Required to log results to text
 let filename = './logOutput.txt';
-let log = require('simple-node-logger').createSimpleFileLogger( filename );
+let log = require('simple-node-logger').createSimpleFileLogger(filename);
 log.setLevel('all');
 
 // DOTENV require
 
-require("dotenv").config();
+require('dotenv').config();
 
 // Axios require
 
-let axios = require("axios");
+let axios = require('axios');
 
 // FS require
 
-let fs = require("fs");
+let fs = require('fs');
 
 // Spotify Request
 
@@ -41,89 +41,88 @@ function searchResults(command, value) {
 
     switch (command) {
         // Calls the Bands in Town function
-        case "concert-this":
+        case 'concert-this':
 
             getConcertInfo(value);
 
             break;
-            
-            
-            // Calls the Spotify function
-    case "spotify-this-song":
+
+        // Calls the Spotify function
+        case 'spotify-this-song':
 
             getSpotifyInfo(value);
 
             break;
-           
-            // Calls the Axios OMDB function
-        case "movie-this":
+
+        // Calls the Axios OMDB function
+        case 'movie-this':
 
             getMovieInfo(value);
 
             break;
-            
-            // Calls the Do what it says function - which runs spotify function from the random.txt document
-        case "do-what-it-says":
 
-            getDoWhatItSays(value);
+        // Calls the do what it says function - which runs spotify function taking in the command and value variable from random.txt document
+        case 'do-what-it-says':
+
+            getDoWhatItSays();
 
             break;
     }
 
 }
 
-// // Concert this Function (Calls bands in town API)
+// // Concert Function (Calls bands in town API)
 
 function getConcertInfo(value) {
 
-  if (value === undefined) {
+    if (value === undefined) {
 
-      artist = "";
+        artist = '';
 
-      logOutput("------------------");
+        logOutput('------------------');
 
-      logOutput("Please include artist to find concert results near you.")
+        logOutput('Please include artist to find concert results near you.')
 
-      logOutput("------------------");
+        logOutput('------------------');
 
-  } else {
+    } else {
 
-      artist = value;
+        artist = value;
 
-  }
+    }
 
-  artist = value;
+    artist = value;
 
-  let queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+    let queryUrl = 'https://rest.bandsintown.com/artists/' + artist + '/events?app_id=codingbootcamp';
 
-  axios.get(queryUrl)
+    axios.get(queryUrl)
 
-      .then(function (response) {
-       
-          //change time format
-        let time = moment( response.data[0].datetime).format('LLLL');
-          // logOutputs concert data
+        .then(function (response) {
 
-          logOutput("------------------");
+            //change time format
+            let time = moment(response.data[0].datetime).format('LLLL');
+            // logOutputs concert data
 
-          logOutput("Upcoming Concert:")
+            logOutput('------------------');
 
-          logOutput("Venue: " + response.data[0].venue.name);
+            logOutput('Upcoming Concert:')
 
-          logOutput("Location: " + response.data[0].venue.country + response.data[0].venue.region + ", " + response.data[0].venue.city);
+            logOutput('Venue: ' + response.data[0].venue.name);
 
-          logOutput("Date: " + time);
+            logOutput('Location: ' + response.data[0].venue.country + response.data[0].venue.region + ', ' + response.data[0].venue.city);
 
-          logOutput("------------------");
+            logOutput('Date: ' + time);
+
+            logOutput('------------------');
 
 
-      })
+        })
 
-      .catch(function (error) {
+        .catch(function (error) {
 
-          logOutput("Error occured getting BandsInTown data: " + error)
+            logOutput('Error occured getting BandsInTown data: ' + error)
 
-      })
+        })
 
 };
 
@@ -131,63 +130,63 @@ function getConcertInfo(value) {
 
 function getSpotifyInfo(value) {
 
-  if (value === undefined) {
+    if (value === undefined) {
 
-      songTitle = doWhatItSays;
+        songTitle = 'Monster Mash';
 
-  } else {
+    } else {
 
-      songTitle = value;
+        songTitle = value;
 
-  }
+    }
 
-  spotify.search({
+    spotify.search({
 
-      type: 'track',
+        type: 'track',
 
-      query: songTitle
+        query: songTitle
 
-  }, function (err, data) {
+    }, function (err, data) {
 
-      if (err) {
+        if (err) {
 
-          return logOutput('Error occurred getting Spotify data: ' + err);
+            return logOutput('Error occurred getting Spotify data: ' + err);
 
-      }
-
-
-
-      let artistsArray = data.tracks.items[0].album.artists;
-
-      let artistsNames = [];
+        }
 
 
 
-      for (let i = 0; i < artistsArray.length; i++) {
+        let artistsArray = data.tracks.items[0].album.artists;
 
-          artistsNames.push(artistsArray[i].name);
-
-      }
-
-      let artists = artistsNames.join(", ");
+        let artistsNames = [];
 
 
 
-      // logOutputs Spotify Data
+        for (let i = 0; i < artistsArray.length; i++) {
 
-      logOutput("------------------");
+            artistsNames.push(artistsArray[i].name);
 
-      logOutput("Artist(s): " + artists);
+        }
 
-      logOutput("Song: " + data.tracks.items[0].name);
+        let artists = artistsNames.join(', ');
 
-      logOutput("Preview Link : " + data.tracks.items[0].preview_url)
 
-      logOutput("Album: " + data.tracks.items[0].album.name);
 
-      logOutput("------------------");
+        // logOutputs Spotify Data
 
-  });
+        logOutput('------------------');
+
+        logOutput('Artist(s): ' + artists);
+
+        logOutput('Song: ' + data.tracks.items[0].name);
+
+        logOutput('Preview Link : ' + data.tracks.items[0].preview_url)
+
+        logOutput('Album: ' + data.tracks.items[0].album.name);
+
+        logOutput('------------------');
+
+    });
 
 };
 
@@ -199,106 +198,91 @@ function getMovieInfo(value) {
 
 
 
-  if (value === undefined) {
+    if (value === undefined) {
 
-      movieName = "Mr. Nobody";
+        movieName = 'Mr. Nobody';
 
-  } else {
+    } else {
 
-      movieName = value;
+        movieName = value;
 
-  }
+    }
 
-  let queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plogOutput=short&tomatoes=True&apikey=trilogOutputy";
-
-
-
-  axios.get(queryUrl)
-
-      .then(function (response) {
+    let queryUrl = 'http://www.omdbapi.com/?t=' + movieName + '&y=&plogOutput=short&tomatoes=True&apikey=trilogOutputy';
 
 
 
-          // logOutputs Movie data
+    axios.get(queryUrl)
 
-          logOutput("------------------");
-
-          logOutput("Title: " + response.data.Title);
-
-          logOutput("Release Year: " + response.data.Year);
-
-          logOutput("IMDB rating: " + response.data.imdbRating);
-
-          logOutput("Rotten Tomatoes rating: " + response.data.Ratings[1].Value);
-
-          logOutput("Country produced in: " + response.data.Country);
-
-          logOutput("Languages: " + response.data.Language);
-
-          logOutput("Plot: " + response.data.Plot);
-
-          logOutput("Actors: " + response.data.Actors);
-
-          logOutput("------------------");
-
-      })
+        .then(function (response) {
 
 
 
-      .catch(function (error) {
+            // logOutputs Movie data
 
-          logOutput("Error occured getting OMDB data: " + error);
+            logOutput('------------------');
 
-      });
+            logOutput('Title: ' + response.data.Title);
+
+            logOutput('Release Year: ' + response.data.Year);
+
+            logOutput('IMDB rating: ' + response.data.imdbRating);
+
+            logOutput('Rotten Tomatoes rating: ' + response.data.Ratings[1].Value);
+
+            logOutput('Country produced in: ' + response.data.Country);
+
+            logOutput('Languages: ' + response.data.Language);
+
+            logOutput('Plot: ' + response.data.Plot);
+
+            logOutput('Actors: ' + response.data.Actors);
+
+            logOutput('------------------');
+
+        })
+
+
+
+        .catch(function (error) {
+
+            logOutput('Error occured getting OMDB data: ' + error);
+
+        });
 
 }
 
 
-
+// Function to run Spotify with value from random.txt
 function getDoWhatItSays() {
 
-  fs.readFile("random.txt", "utf8", function(err, data) {
+    fs.readFile('random.txt', 'utf8', function (err, data) {
 
-      if (err) {
-  
-        logOutput.error(err);
-  
-      } else {
-  
-  
-  
-        // Creates array with data.
-  
-        let randomArray = data.split(",");
-  
-  
-  
-        // Sets action to first item in array.
-  
-        command = randomArray[0];
-  
-  
-  
-        // Sets optional third argument to second item in array.
-  
-        value = randomArray[1];
-  
-  
-  
-        // Calls main controller to do something based on action and argument.
-  
-        searchResults(command, value);
-  
-      }
-  
+        if (err) {
+
+            return display("Error occured getting info from random.txt");
+
+        } else {
+
+
+            let dataArr = data.split(",");
+
+            value = dataArr[1].trim().slice(1, -1);
+
+
+            getSpotifyInfo(value);
+
+        }
     });
-  
-  };
+
+
+
+};
 
 function logOutput(logText) {
 
-	log.info(logText);
+    log.info(logText);
 
-	console.log(logText);
+    console.log(logText);
 
 }
