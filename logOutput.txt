@@ -1,0 +1,125 @@
+node18:31:04.566 INFO  ------------------ 
+18:31:04.567 INFO  Artist(s): Tim Gill, The Tim Gill All-Stars 
+18:31:04.568 INFO  Song: Let's Call the Whole Thing Off 
+18:31:04.568 INFO  Preview Link : https://p.scdn.co/mp3-preview/f3112417ac9d16c38337647d6547ae62a2236998?cid=96cc499937964822b6ef8bc830fc1e91 
+18:31:04.568 INFO  Album: Small Batch Bourbon 
+18:31:04.569 INFO  ------------------ 
+18:31:14.644 INFO  ------------------ 
+18:31:14.645 INFO  Artist(s): Tim Gill, The Tim Gill All-Stars 
+18:31:14.645 INFO  Song: Let's Call the Whole Thing Off 
+18:31:14.646 INFO  Preview Link : https://p.scdn.co/mp3-preview/f3112417ac9d16c38337647d6547ae62a2236998?cid=96cc499937964822b6ef8bc830fc1e91 
+18:31:14.646 INFO  Album: Small Batch Bourbon 
+18:31:14.646 INFO  ------------------ 
+18:33:32.905 INFO  ------------------ 
+18:33:32.906 INFO  Artist(s): Tim Gill, The Tim Gill All-Stars 
+18:33:32.906 INFO  Song: Let's Call the Whole Thing Off 
+18:33:32.907 INFO  Preview Link : https://p.scdn.co/mp3-preview/f3112417ac9d16c38337647d6547ae62a2236998?cid=96cc499937964822b6ef8bc830fc1e91 
+18:33:32.909 INFO  Album: Small Batch Bourbon 
+18:33:32.910 INFO  ------------------ 
+18:35:51.234 INFO  ------------------ 
+18:35:51.234 INFO  Next Concert: 
+18:35:51.235 INFO  Error occured getting BandsInTown data: TypeError: Cannot read property 'venue' of undefined 
+18:37:21.312 INFO  ------------------ 
+18:37:21.313 INFO  Next Concert: 
+18:37:21.313 INFO  Error occured getting BandsInTown data: TypeError: Cannot read property 'venue' of undefined 
+18:39:03.535 INFO  ------------------ 
+18:39:03.536 INFO  Next Concert: 
+18:39:03.536 INFO  Venue: Artheater 
+18:39:03.538 INFO  logOutputation: Germany, , Cologne 
+18:39:03.538 INFO  Date: 2019-02-01T23:59:00 
+18:39:03.538 INFO  ------------------ 
+18:39:03.539 INFO  Coming up: 
+18:39:03.539 INFO  Venue: Le Gueulard Plus 
+18:39:03.540 INFO  logOutputation: France, , Nilvange 
+18:39:03.540 INFO  Date: 2019-02-09T20:30:00 
+18:39:03.543 INFO  ------------------ 
+18:39:03.544 INFO  Coming up: 
+18:39:03.544 INFO  Venue: Grace City Church 
+18:39:03.545 INFO  logOutputation: United States, MO, Bourbon 
+18:39:03.545 INFO  Date: 2019-02-22T19:00:00 
+18:39:03.545 INFO  ------------------ 
+18:42:52.696 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+18:46:09.259 INFO  ------------------ 
+18:46:09.260 INFO  Artist(s): blink-182 
+18:46:09.260 INFO  Song: All The Small Things 
+18:46:09.260 INFO  Preview Link : null 
+18:46:09.261 INFO  Album: Enema Of The State 
+18:46:09.261 INFO  ------------------ 
+18:48:29.199 INFO  Error occurred getting Spotify data: TypeError: Cannot read property 'album' of undefined 
+18:48:51.967 INFO  Error occurred getting Spotify data: TypeError: Cannot read property 'album' of undefined 
+19:10:24.590 INFO  ------------------ 
+19:10:24.590 INFO  Artist(s): Tim Gill, The Tim Gill All-Stars 
+19:10:24.591 INFO  Song: Let's Call the Whole Thing Off 
+19:10:24.591 INFO  Preview Link : https://p.scdn.co/mp3-preview/f3112417ac9d16c38337647d6547ae62a2236998?cid=96cc499937964822b6ef8bc830fc1e91 
+19:10:24.591 INFO  Album: Small Batch Bourbon 
+19:10:24.592 INFO  ------------------ 
+19:10:39.256 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:11:01.260 INFO  ------------------ 
+19:11:01.261 INFO  Next Concert: 
+19:11:01.262 INFO  Error occured getting BandsInTown data: TypeError: Cannot read property 'venue' of undefined 
+19:12:39.075 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:12:59.005 INFO  ------------------ 
+19:12:59.006 INFO  Next Concert: 
+19:12:59.006 INFO  Venue: Rolling Stock London 
+19:12:59.007 INFO  logOutputation: United Kingdom, , London 
+19:12:59.007 INFO  Date: 2019-03-23T19:00:00 
+19:12:59.008 INFO  ------------------ 
+19:12:59.008 INFO  Coming up: 
+19:12:59.009 INFO  Error occured getting BandsInTown data: TypeError: Cannot read property 'venue' of undefined 
+19:15:23.510 INFO  ------------------ 
+19:15:23.511 INFO  Upcoming Concert: 
+19:15:23.511 INFO  Venue: Rolling Stock London 
+19:15:23.511 INFO  logOutputation: United Kingdom, London 
+19:15:23.512 INFO  Date: 2019-03-23T19:00:00 
+19:15:23.512 INFO  ------------------ 
+19:15:23.512 INFO  Coming up: 
+19:15:23.513 INFO  Error occured getting BandsInTown data: TypeError: Cannot read property 'venue' of undefined 
+19:16:32.264 INFO  ------------------ 
+19:16:32.265 INFO  Upcoming Concert: 
+19:16:32.266 INFO  Venue: Rolling Stock London 
+19:16:32.266 INFO  logOutputation: United Kingdom, London 
+19:16:32.267 INFO  Date: 2019-03-23T19:00:00 
+19:16:32.267 INFO  ------------------ 
+19:17:39.321 INFO  ------------------ 
+19:17:39.322 INFO  Upcoming Concert: 
+19:17:39.323 INFO  Venue: Rolling Stock London 
+19:17:39.323 INFO  :Location United Kingdom, London 
+19:17:39.324 INFO  Date: 2019-03-23T19:00:00 
+19:17:39.324 INFO  ------------------ 
+19:20:26.806 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:27:21.062 INFO  ------------------ 
+19:27:21.063 INFO  Upcoming Concert: 
+19:27:21.063 INFO  Venue: Rolling Stock London 
+19:27:21.064 INFO  Location: United Kingdom, London 
+19:27:21.064 INFO  Date: 2019-03-23T19:00:00 
+19:27:21.064 INFO  ------------------ 
+19:29:08.787 INFO  ------------------ 
+19:29:08.788 INFO  Upcoming Concert: 
+19:29:08.788 INFO  Venue: Rolling Stock London 
+19:29:08.789 INFO  Location: United Kingdom, London 
+19:29:08.793 INFO  Invalid date 
+19:29:08.793 INFO  ------------------ 
+19:30:30.499 INFO  ------------------ 
+19:30:30.499 INFO  Upcoming Concert: 
+19:30:30.500 INFO  Venue: Rolling Stock London 
+19:30:30.500 INFO  Location: United Kingdom, London 
+19:30:30.501 INFO  Date: Saturday, March 23, 2019 7:00 PM 
+19:30:30.502 INFO  ------------------ 
+19:40:07.016 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:42:32.800 INFO  ------------------ 
+19:42:32.801 INFO  Title: undefined 
+19:42:32.802 INFO  Release Year: undefined 
+19:42:32.802 INFO  IMDB rating: undefined 
+19:42:32.802 INFO  Error occured getting OMDB data: TypeError: Cannot read property '1' of undefined 
+19:48:02.937 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:48:21.158 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:49:19.193 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:49:53.739 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:52:22.895 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:57:28.061 INFO  Error occured getting OMDB data: Error: Request failed with status code 401 
+19:57:35.978 INFO  ------------------ 
+19:57:35.979 INFO  Upcoming Concert: 
+19:57:35.980 INFO  Venue: Rolling Stock London 
+19:57:35.980 INFO  Location: United Kingdom, London 
+19:57:35.980 INFO  Date: Saturday, March 23, 2019 7:00 PM 
+19:57:35.981 INFO  ------------------ 
